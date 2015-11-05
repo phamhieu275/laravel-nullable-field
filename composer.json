@@ -1,0 +1,22 @@
+{
+    "name": "bluecode/laravel-nullable-field",
+    "description": "This trait allows you to easily flag attributes that should be set as null.",
+    "type": "utility",
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/database": "~5.0|~5.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bluecode",
+            "email": "",
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Bluecode\\Traits\\": "src/"
+        }
+    }
+}

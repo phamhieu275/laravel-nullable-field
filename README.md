@@ -1,4 +1,4 @@
-# Nullable database fields for the Laravel PHP Framework
+# Nullable database fields for Laravel
 
 Often times, database fields that are not assigned values are defaulted to `null`. This is particularly important when creating records with foreign key constraints.
 
@@ -31,7 +31,7 @@ In order to use this trait, import it in your Eloquent model, then set the prote
 ```php
 <?php
 
-use Bluecode\Trait\NullableField;
+use Bluecode\Traits\NullableField;
 use Illuminate\Database\Eloquent\Model;
 
 class UserProfile extends Model
